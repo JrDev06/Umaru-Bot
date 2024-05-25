@@ -7,7 +7,7 @@ const axios = require("axios");
 const app = express();
 const PingMonitor = require('ping-monitor');
 const pingOptions = {
-  website: `https://yourweb`,
+  website: `https://umaru-bot-0crr.onrender.com`,
   title: 'Umaru Chan',
   interval: 1 
 };
@@ -56,7 +56,7 @@ function ping(targetUrl) {
 
 
 setInterval(() => {
-  ping(`https://yourweb`);
+  ping(`https://umaru-bot-0crr.onrender.com`);
 }, 30000); 
 const config = require('./config.json'); 
 
